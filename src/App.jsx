@@ -3,6 +3,7 @@ import { db } from "./firebase";
 import { ref, set, get, remove } from "firebase/database";
 
 const MONTHS = [
+  { name: "March", year: 2027, days: 31, startDay: 1 }, // March 1, 2027 = Monday
   { name: "April", year: 2027, days: 30, startDay: 4 }, // April 1, 2027 = Thursday
   { name: "May", year: 2027, days: 31, startDay: 6 },   // May 1, 2027 = Saturday
 ];
